@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro:wght@700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -92,6 +95,10 @@ html {
     
     color: #fff;
     line-height: 26px;
+    width: 37%;
+    
+  
+    margin: 50px 455px;
 }
 @media only screen and (max-width: 600px) {
     #slider .text-dicription {
@@ -574,7 +581,7 @@ html {
     padding: 90px 0px;
     display: flex;
     width: 100%;
-    margin: 0 250px;
+    margin: 0 299px;
     
     
 }
@@ -586,10 +593,12 @@ html {
     font-size: 40px;
     margin: 0px 0px 16px;
     margin-bottom: 40px;
+    font-weight:bolder;
+    font-family: "Source Sans Pro", sans-serif;
 }
 .banner-light-left .title{
     font-size: 13.5px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     color: #8d8d8d;
     margin: 0px 0px 40px;
 }
@@ -605,12 +614,67 @@ html {
 .content-banner-light .heading-banner {
     font-size: 18px;
     margin: 16px 0;
+    font-family: sour;
 }
 #banner-light .banner-light-right{
     background-color: #8d8d8d;
     opacity: 0.001;
 }
+#banner-text{
+    display: inline-block;
+    width: 98%;
+    height: auto;
+    margin: 50px 15px;
+    padding: 90px 0;
+}
+.banner-text-box{
+    width: 50%;
+    text-align: right;
+    margin: 0 183px;
+}
+#banner-text .banner-text-about{
+    display: inline-flex;
+    margin: 0 50px;
+}
+.banner-text-content{
+    font-size: 13.5px;
+    color: #838383;
+    margin: 0 0 16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+#banner-text .banner-text-heading{
+    font-size: 50px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family:"Source Sans Pro", sans-serif ;
+}
+.banner-text-box-2{
+    display: inline-grid;
+    margin-left: 47px;
+}
+.banner-text-box-2 input{
+    width: 500px;
+    margin: 10px 0;
+}
+.titkecs-submit{
+    font-size: 16px;
+    height: 50px;
+    background-color: #fb414e;
+    text-align: center;
+    border: 2px solid red;
+    color: aliceblue;
+    padding: 16px;
+    margin: 20px 244px;
+}
 
 /* footer*/
-/* #footer {
-} */
+ #footer {
+    color: #ededed;
+    background-color: #202b30;
+    display: flex;
+} 
+
+#footer .main-footer{
+    margin: 30px 200px;
+}
